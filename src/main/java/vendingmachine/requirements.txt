@@ -1,0 +1,18 @@
+Requirements:
+    accepts certain denomination of coins 5, 10, 25 cents
+    allows users to select a product like pepsi(24), coke(25) cocaine(26) etc
+    allows user to take refund should they cancel their purchase
+    return selected product and remaining change if any
+    allows resetting of machine by the vendor
+
+APIs:
+    VendingMachine (Interface)
+    VendingMachineImpl
+    VendingMachineFactory
+    Item
+    Inventory
+    Coin
+    Bucket ?
+    NotFullPaidException
+    NotSufficientChangeException
+    SoldOutException
